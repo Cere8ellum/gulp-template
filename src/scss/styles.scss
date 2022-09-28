@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: sans-serif;
+}
+
+$headerHeight: 75px;
+
+.container {
+  max-width: 1140px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.display-none {
+  display: none;
+}
+
+header {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  .header-content {
+    height: $headerHeight;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
